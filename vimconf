@@ -1,0 +1,8 @@
+被光标闪烁问题困扰了，明明配置的.vimrc没有问题，但还是会有光标闪烁
+这个问题存在，后来发现是终端的问题，终端一直在闪烁，使用下面的命令
+可以终止终端的闪烁。
+
+gsettings set org.gnome.desktop.interface cursor-blink false
+
+
+
